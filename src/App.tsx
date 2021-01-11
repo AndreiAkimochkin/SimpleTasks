@@ -3,6 +3,11 @@ import './App.css';
 import {Accordion} from "./components/accordion/Accordion";
 import {Rating} from "./components/rating/Rating";
 
+type PageTitlePropsType = {
+    title: string
+}
+
+
 function App() {
     return (
         <div>
@@ -10,8 +15,8 @@ function App() {
             <PageTitle title="This is not APP component"/>
             Article 1
             <Rating value={3}/>
-            <Accordion title='First one'/>
-            <Accordion title='Second one'/>
+            <Accordion title='First one' collapsed={true}/>
+            <Accordion title='Second one' collapsed={false}/>
             Article 2
             <Rating value={0}/>
             <Rating value={1}/>
@@ -23,7 +28,7 @@ function App() {
     )
 }
 
-function PageTitle(props:any) {
+function PageTitle(props:PageTitlePropsType) {
     return <h1>{props.title}</h1>
 }
 
