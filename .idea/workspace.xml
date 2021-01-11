@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b521d5d-9042-4019-944c-b3bd3e1b332e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/accordion/Accordion.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/rating/Rating.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="2b521d5d-9042-4019-944c-b3bd3e1b332e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +16,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1mvQ3FvnTIhn0bwotX2t1UpZscj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -75,18 +68,42 @@
       <option name="presentableId" value="Default" />
       <updated>1610371383285</updated>
       <workItem from="1610371385238" duration="4696000" />
-      <workItem from="1610376526659" duration="2512000" />
+      <workItem from="1610376526659" duration="2760000" />
     </task>
+    <task id="LOCAL-00001" summary="3. Props and stars">
+      <created>1610380745119</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610380745119</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="3. Props and stars" />
+    <option name="LAST_COMMIT_MESSAGE" value="3. Props and stars" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="278" y="0" key="CommitChangelistDialog2" timestamp="1610380744698">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="278" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1610380744698" />
+    <state x="232" y="74" key="Vcs.Push.Dialog.v2" timestamp="1610380815076">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="232" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1610380815076" />
     <state x="446" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1610374380963">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.680@0.0.1280.680" timestamp="1610374380963" />
+    <state x="451" y="257" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610380896268">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="451" y="257" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1610380896268" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
