@@ -1,7 +1,7 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
 import {Accordion} from "./components/accordion/Accordion";
-import {Rating} from "./components/rating/Rating";
+import {Rating, RatingValueType} from "./components/rating/Rating";
 import {OnOff} from "./components/OnOff/OnOff";
 import {UncontrolledAccordion} from "./components/accordion/UncontrolledAccordion";
 import {UncontrolledRating} from "./components/rating/UncontrolledRating";
@@ -12,6 +12,9 @@ type PageTitlePropsType = {
 
 
 function App() {
+
+    let [value, setValue]=useState<RatingValueType>(0)
+    let [accordionCollapsed, setAccordionCollapsed]=useState<boolean>(false)
     return (
         <div>
             <OnOff/>
@@ -19,8 +22,10 @@ function App() {
             <OnOff/>
 
 
-            <UncontrolledAccordion title='First one' />
-            <UncontrolledAccordion title='Second one' />
+            {/*<UncontrolledAccordion title='First one' />*/}
+            {/*<UncontrolledAccordion title='Second one' />*/}
+
+            <Rating value={value} onClick={setValue}/>
 
             <UncontrolledRating />
 
@@ -28,7 +33,7 @@ function App() {
             {/*<PageTitle title="This is not APP component"/>*/}
             {/*Article 1*/}
             {/*<Rating value={3}/>*/}
-            {/*<Accordion title='First one' collapsed={true}/>*/}
+            <Accordion title='First one' collapsed={accordionCollapsed} onClick={setAccordionCollapsed}/>
             {/*<Accordion title='Second one' collapsed={false}/>*/}
             {/*Article 2*/}
             {/*<Rating value={0}/>*/}
