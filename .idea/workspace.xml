@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b521d5d-9042-4019-944c-b3bd3e1b332e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/OnOff/OnOff.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/accordion/UncontrolledAccordion.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/rating/UncontrolledRating.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/accordion/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/accordion/Accordion.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/OnOff/OnOff.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OnOff/OnOff.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/rating/Rating.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/rating/Rating.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +44,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/rating" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -52,6 +55,10 @@
   <component name="RecentsManager">
     <key name="es6.move.members.recent.items">
       <recent name="C:\Users\Zver\WebstormProjects\simple_tasks\src\components\rating\Rating.tsx" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Zver\WebstormProjects\simple_tasks\src\components\rating" />
+      <recent name="C:\Users\Zver\WebstormProjects\simple_tasks\src\components\accordion" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -81,7 +88,7 @@
       <updated>1610371383285</updated>
       <workItem from="1610371385238" duration="4696000" />
       <workItem from="1610376526659" duration="6178000" />
-      <workItem from="1610440376035" duration="2765000" />
+      <workItem from="1610440376035" duration="12479000" />
     </task>
     <task id="LOCAL-00001" summary="3. Props and stars">
       <created>1610380745119</created>
@@ -104,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610390005891</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="5. Pseudo true and false">
+      <created>1610445261941</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610445261941</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,17 +127,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="3. Props and stars" />
     <MESSAGE value="4. PropsType" />
-    <option name="LAST_COMMIT_MESSAGE" value="4. PropsType" />
+    <MESSAGE value="5. Pseudo true and false" />
+    <option name="LAST_COMMIT_MESSAGE" value="5. Pseudo true and false" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="278" y="0" key="CommitChangelistDialog2" timestamp="1610390005516">
+    <state x="278" y="0" key="CommitChangelistDialog2" timestamp="1610445261504">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="278" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1610390005516" />
-    <state x="232" y="74" key="Vcs.Push.Dialog.v2" timestamp="1610390009419">
+    <state x="278" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1610445261504" />
+    <state x="232" y="74" key="Vcs.Push.Dialog.v2" timestamp="1610445266254">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="232" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1610390009419" />
+    <state x="232" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1610445266254" />
     <state x="446" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1610374380963">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
