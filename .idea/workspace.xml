@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b521d5d-9042-4019-944c-b3bd3e1b332e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/OnOff/OnOff.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/accordion/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/accordion/Accordion.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/rating/Rating.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/rating/Rating.tsx" afterDir="false" />
     </list>
@@ -80,7 +80,8 @@
       <option name="presentableId" value="Default" />
       <updated>1610371383285</updated>
       <workItem from="1610371385238" duration="4696000" />
-      <workItem from="1610376526659" duration="5540000" />
+      <workItem from="1610376526659" duration="6178000" />
+      <workItem from="1610440376035" duration="2765000" />
     </task>
     <task id="LOCAL-00001" summary="3. Props and stars">
       <created>1610380745119</created>
@@ -96,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610380909831</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="4. PropsType">
+      <created>1610390005891</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610390005891</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,17 +112,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="3. Props and stars" />
-    <option name="LAST_COMMIT_MESSAGE" value="3. Props and stars" />
+    <MESSAGE value="4. PropsType" />
+    <option name="LAST_COMMIT_MESSAGE" value="4. PropsType" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="278" y="0" key="CommitChangelistDialog2" timestamp="1610380909409">
+    <state x="278" y="0" key="CommitChangelistDialog2" timestamp="1610390005516">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="278" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1610380909409" />
-    <state x="232" y="74" key="Vcs.Push.Dialog.v2" timestamp="1610380975568">
+    <state x="278" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1610390005516" />
+    <state x="232" y="74" key="Vcs.Push.Dialog.v2" timestamp="1610390009419">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="232" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1610380975568" />
+    <state x="232" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1610390009419" />
     <state x="446" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1610374380963">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
