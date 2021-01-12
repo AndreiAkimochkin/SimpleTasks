@@ -4,11 +4,7 @@
     <list default="true" id="2b521d5d-9042-4019-944c-b3bd3e1b332e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/accordion/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/accordion/Accordion.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/accordion/UncontrolledAccordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/accordion/UncontrolledAccordion.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/rating/Rating.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/rating/Rating.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/rating/UncontrolledRating.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/rating/UncontrolledRating.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/rating" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/OnOff" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -88,7 +84,7 @@
       <updated>1610371383285</updated>
       <workItem from="1610371385238" duration="4696000" />
       <workItem from="1610376526659" duration="6178000" />
-      <workItem from="1610440376035" duration="19530000" />
+      <workItem from="1610440376035" duration="21825000" />
     </task>
     <task id="LOCAL-00001" summary="3. Props and stars">
       <created>1610380745119</created>
@@ -125,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610463033188</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="8. Callbacks">
+      <created>1610473809869</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610473809869</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,17 +139,18 @@
     <MESSAGE value="4. PropsType" />
     <MESSAGE value="5. Pseudo true and false" />
     <MESSAGE value="6,7. Uncontrolled components" />
-    <option name="LAST_COMMIT_MESSAGE" value="6,7. Uncontrolled components" />
+    <MESSAGE value="8. Callbacks" />
+    <option name="LAST_COMMIT_MESSAGE" value="8. Callbacks" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="278" y="0" key="CommitChangelistDialog2" timestamp="1610463032845">
+    <state x="278" y="0" key="CommitChangelistDialog2" timestamp="1610473809572">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="278" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1610463032845" />
-    <state x="232" y="74" key="Vcs.Push.Dialog.v2" timestamp="1610463037126">
+    <state x="278" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1610473809572" />
+    <state x="232" y="74" key="Vcs.Push.Dialog.v2" timestamp="1610473813635">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="232" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1610463037126" />
+    <state x="232" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1610473813635" />
     <state x="446" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1610374380963">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

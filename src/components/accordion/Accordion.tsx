@@ -1,5 +1,4 @@
 import React from "react";
-import {Rating, RatingValueType} from "../rating/Rating";
 
 type AccordionPropsType = {
     title: string
@@ -11,7 +10,7 @@ export function Accordion(props: AccordionPropsType) {
 
           return (
             <div>
-                <AccordionTitle title={props.title} collapsed={props.collapsed} onClick={props.onClick}/>
+                <AccordionTitle title={props.title}    onClick={()=>{props.onClick(!props.collapsed)}}/>
                {!props.collapsed && <AccordionBody/>}
             </div>
         )
@@ -20,10 +19,11 @@ export function Accordion(props: AccordionPropsType) {
 
 type AccordionTitlePropsType = {
     title: string
+    onClick: () => void
 }
 
 function AccordionTitle(props: AccordionTitlePropsType) {
-    return <><h3>{props.title}</h3></>
+    return <><h3 onClick={()=>{props.onClick()}}>{props.title}</h3></>
 }
 
 function AccordionBody() {
