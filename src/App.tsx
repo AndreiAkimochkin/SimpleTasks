@@ -6,6 +6,7 @@ import {OnOff} from "./components/OnOff/OnOff";
 import {UncontrolledAccordion} from "./components/accordion/UncontrolledAccordion";
 import {UncontrolledRating} from "./components/rating/UncontrolledRating";
 import {ControlledOnOff} from "./components/OnOff/UncontrolledOnOff";
+import {GetUncontrolledInputValue, UncontrolledInput} from "./components/input/UncontrolledInput";
 
 type PageTitlePropsType = {
     title: string
@@ -13,6 +14,8 @@ type PageTitlePropsType = {
 
 
 function App() {
+
+
 
     let [value, setValue]=useState<RatingValueType>(0)
     let [accordionCollapsed, setAccordionCollapsed]=useState<boolean>(false)
@@ -22,6 +25,8 @@ function App() {
             {/*<OnOff/>*/}
             {/*<OnOff/>*/}
             {/*<OnOff/>*/}
+            <GetUncontrolledInputValue/>
+            <UncontrolledInput/>
 
             <ControlledOnOff on={on} setOn={setOn}/>
 
