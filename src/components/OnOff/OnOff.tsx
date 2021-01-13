@@ -35,10 +35,12 @@ export function OnOff(props: onOffPropsType){
         backgroundColor:  on ? 'green': 'red'
            }
 
+       const setOnClicked =()=>{setOn(true)}
+       const setOffClicked =()=>{setOn(false)}
     return (
         <div>
-            <div onClick={()=>{setOn(true)}} style={onStyle}>On</div>
-            <div onClick={()=>{setOn(false)}}style={offStyle}>Off</div>
+            <div onClick={setOnClicked} style={onStyle}>On</div>
+            <div onClick={setOffClicked}style={offStyle}>Off</div>
             <div style={indicatorStyle}></div>
         </div>
     )

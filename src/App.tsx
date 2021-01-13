@@ -5,6 +5,7 @@ import {Rating, RatingValueType} from "./components/rating/Rating";
 import {OnOff} from "./components/OnOff/OnOff";
 import {UncontrolledAccordion} from "./components/accordion/UncontrolledAccordion";
 import {UncontrolledRating} from "./components/rating/UncontrolledRating";
+import {ControlledOnOff} from "./components/OnOff/UncontrolledOnOff";
 
 type PageTitlePropsType = {
     title: string
@@ -15,12 +16,14 @@ function App() {
 
     let [value, setValue]=useState<RatingValueType>(0)
     let [accordionCollapsed, setAccordionCollapsed]=useState<boolean>(false)
+    let [on, setOn] = useState(false)
     return (
         <div>
-            <OnOff/>
-            <OnOff/>
-            <OnOff/>
+            {/*<OnOff/>*/}
+            {/*<OnOff/>*/}
+            {/*<OnOff/>*/}
 
+            <ControlledOnOff on={on} setOn={setOn}/>
 
             {/*<UncontrolledAccordion title='First one' />*/}
             {/*<UncontrolledAccordion title='Second one' />*/}
@@ -28,6 +31,7 @@ function App() {
             <Rating value={value} onClick={setValue}/>
 
             <UncontrolledRating />
+
 
             {/*<PageTitle title="This is APP component"/>*/}
             {/*<PageTitle title="This is not APP component"/>*/}
