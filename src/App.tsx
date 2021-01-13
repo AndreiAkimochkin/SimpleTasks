@@ -20,29 +20,34 @@ function App() {
     let [value, setValue]=useState<RatingValueType>(0)
     let [accordionCollapsed, setAccordionCollapsed]=useState<boolean>(false)
     let [on, setOn] = useState(false)
+   
     return (
         <div>
             {/*<OnOff/>*/}
             {/*<OnOff/>*/}
             {/*<OnOff/>*/}
-            <GetUncontrolledInputValue/>
-            <UncontrolledInput/>
+            {/*<GetUncontrolledInputValue/>*/}
+            {/*<UncontrolledInput/>*/}
 
-            <ControlledOnOff on={on} setOn={setOn}/>
+            {/*<ControlledOnOff on={on} setOn={setOn}/>*/}
 
             {/*<UncontrolledAccordion title='First one' />*/}
             {/*<UncontrolledAccordion title='Second one' />*/}
 
-            <Rating value={value} onClick={setValue}/>
+            {/*<Rating value={value} onClick={setValue}/>*/}
 
-            <UncontrolledRating />
+            {/*<UncontrolledRating />*/}
 
 
             {/*<PageTitle title="This is APP component"/>*/}
             {/*<PageTitle title="This is not APP component"/>*/}
             {/*Article 1*/}
             {/*<Rating value={3}/>*/}
-            <Accordion title='First one' collapsed={accordionCollapsed} onClick={setAccordionCollapsed}/>
+            <Accordion title='First one'
+                       collapsed={accordionCollapsed}
+                       onClick={setAccordionCollapsed}
+
+                        items={[{title:'Andrei', value: 1}, {title:'Bob', value: 2}, {title:'Viktor', value: 3} ]}/>
             {/*<Accordion title='Second one' collapsed={false}/>*/}
             {/*Article 2*/}
             {/*<Rating value={0}/>*/}

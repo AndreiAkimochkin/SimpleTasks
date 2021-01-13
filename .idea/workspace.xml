@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b521d5d-9042-4019-944c-b3bd3e1b332e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/input/ControlledInput.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/select/Select.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/accordion/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/accordion/Accordion.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +88,8 @@
       <workItem from="1610371385238" duration="4696000" />
       <workItem from="1610376526659" duration="6178000" />
       <workItem from="1610440376035" duration="21884000" />
-      <workItem from="1610528549126" duration="7253000" />
+      <workItem from="1610528549126" duration="7300000" />
+      <workItem from="1610560670691" duration="2615000" />
     </task>
     <task id="LOCAL-00001" summary="3. Props and stars">
       <created>1610380745119</created>
@@ -150,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610547261858</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="13. Controlled Input, Checkbox, Select">
+      <created>1610550699514</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1610550699514</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,17 +175,34 @@
     <MESSAGE value="8. Callbacks" />
     <MESSAGE value="9. Callbacks 2" />
     <MESSAGE value="12. Uncontrolled Input with Ref" />
-    <option name="LAST_COMMIT_MESSAGE" value="12. Uncontrolled Input with Ref" />
+    <MESSAGE value="13. Controlled Input, Checkbox, Select" />
+    <option name="LAST_COMMIT_MESSAGE" value="13. Controlled Input, Checkbox, Select" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="278" y="0" key="CommitChangelistDialog2" timestamp="1610547261548">
+    <state x="278" y="0" key="CommitChangelistDialog2" timestamp="1610550698947">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="278" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1610547261548" />
-    <state x="232" y="74" key="Vcs.Push.Dialog.v2" timestamp="1610547266336">
+    <state x="278" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1610550698947" />
+    <state width="1258" height="158" key="GridCell.Tab.0.bottom" timestamp="1610562735424">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="232" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1610547266336" />
+    <state width="1258" height="158" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1610562735424" />
+    <state width="1258" height="158" key="GridCell.Tab.0.center" timestamp="1610562735424">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1258" height="158" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1610562735424" />
+    <state width="1258" height="158" key="GridCell.Tab.0.left" timestamp="1610562735424">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1258" height="158" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1610562735424" />
+    <state width="1258" height="158" key="GridCell.Tab.0.right" timestamp="1610562735424">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1258" height="158" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1610562735424" />
+    <state x="232" y="74" key="Vcs.Push.Dialog.v2" timestamp="1610550703834">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="232" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1610550703834" />
     <state x="446" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1610374380963">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
